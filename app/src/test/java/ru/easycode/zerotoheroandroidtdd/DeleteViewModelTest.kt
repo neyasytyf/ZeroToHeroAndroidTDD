@@ -13,7 +13,7 @@ import ru.easycode.zerotoheroandroidtdd.FakeRepositoryDelete.Companion.REPOSITOR
 class DeleteViewModelTest {
 
     @get:Rule
-    val rule = InstantTaskExecutorRule()
+    val rule =  InstantTaskExecutorRule()
 
     private lateinit var order: Order
     private lateinit var liveDataWrapper: FakeListLiveDataWrapper
